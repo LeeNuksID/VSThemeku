@@ -1,0 +1,21 @@
+{
+    "name": "vs-themeku",
+    "displayName": "VS Themeku",
+    "description": "Slight change from default theme color",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "VSThemeku",
+                "uiTheme": "vs-dark",
+                "path": "./themes/VSThemeku-color-theme.json"
+            }
+        ]
+    }
+}
